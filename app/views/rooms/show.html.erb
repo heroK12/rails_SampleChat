@@ -1,0 +1,7 @@
+<h1>ChatRoom</h1>
+<div id="messages">
+  <%= render @messages %>
+</div>
+
+<%= label_tag :content, 'Say something:' %>
+<%= text_field_tag :content, nil %>
